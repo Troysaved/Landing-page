@@ -85,6 +85,7 @@ const styles = {
   },
   nav: {
     mx: 'auto',
+    mr: 160,
     display: 'none',
     '@media screen and (min-width: 1024px)': {
       display: 'block',
@@ -92,7 +93,8 @@ const styles = {
     a: {
       fontSize: 2,
       fontWeight: 'body',
-      px: 5,
+      px: 3,
+      ml: 7,
       cursor: 'pointer',
       lineHeight: '1.2',
       transition: 'all 0.15s',
